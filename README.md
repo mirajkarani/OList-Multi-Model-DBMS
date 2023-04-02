@@ -1,1 +1,1 @@
-# OList-Multi-Model-DBMS
+# Retail Management System

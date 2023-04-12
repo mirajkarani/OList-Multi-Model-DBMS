@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_-93Dccg1Ee2rAskuLS3aWg" name="Seller" dataPackage="_-93Dcsg1Ee2rAskuLS3aWg" Server="Localhost 127.0.0.1" FilePath="C:/Users/anike/OneDrive/Documents/OList Dataset/olist_sellers_dataset.csv" Format="WINDOWS" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_-93Dcsg1Ee2rAskuLS3aWg" name="default" dataManager="_-93Dccg1Ee2rAskuLS3aWg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_-93Dc8g1Ee2rAskuLS3aWg" id="_r6DbUMg1Ee2rAskuLS3aWg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-93DdMg1Ee2rAskuLS3aWg" label="SellerID" length="34" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-93Ddcg1Ee2rAskuLS3aWg" label="ZipCode" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-93Ddsg1Ee2rAskuLS3aWg" label="City" length="21" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-93Dd8g1Ee2rAskuLS3aWg" label="State" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

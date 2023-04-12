@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_ou2qocg1Ee2rAskuLS3aWg" name="Products" dataPackage="_ou2qosg1Ee2rAskuLS3aWg" Server="Localhost 127.0.0.1" FilePath="C:/Users/anike/OneDrive/Documents/OList Dataset/olist_products_dataset.csv" Format="WINDOWS" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_ou2qosg1Ee2rAskuLS3aWg" name="default" dataManager="_ou2qocg1Ee2rAskuLS3aWg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_ou2qo8g1Ee2rAskuLS3aWg" id="_KfhlQMg1Ee2rAskuLS3aWg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ou2qpMg1Ee2rAskuLS3aWg" label="ProductID" length="34" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ou2qpcg1Ee2rAskuLS3aWg" label="ProductCategory" length="32" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ou2qpsg1Ee2rAskuLS3aWg" label="NameLength" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ou2qp8g1Ee2rAskuLS3aWg" label="DescriptionLength" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ou2qqMg1Ee2rAskuLS3aWg" label="PhotosQuantity" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ou2qqcg1Ee2rAskuLS3aWg" label="WeightInGram" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ou2qqsg1Ee2rAskuLS3aWg" label="LengthInCm" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ou2qq8g1Ee2rAskuLS3aWg" label="HeightInCm" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ou2qrMg1Ee2rAskuLS3aWg" label="WidthInCm" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

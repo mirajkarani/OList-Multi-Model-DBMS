@@ -8,7 +8,7 @@
 
 <h2> Change Data Capture & Scheduling</h2>
 
-• We have scheduled our Talend workflow jobs using Windows Task Scheduler to run daily at 14:00 PM EST. This will kick off all the ETL and staging workflow and load data into staging SQL Server Database locally. <br/>  
+• We have scheduled our Talend workflow jobs using Windows Task Scheduler to run daily at 14:00 PM EST. This will kick off all the ETL and staging workflow and load data into staging SQL Server Database locally. <br/>
 • Next, in Apache Airflow we have setup DAG to schedule data pipeline job run, which will load the JSON file from SQL Server using SQL API for Cosmos DB into the Azure Blob Containers at daily 15:00 PM EST. <br/>
 • As soon as the JSON file is created in Azure Blob Container, it will trigger an Azure Data Factory pipeline workflow automatically and load the JSON data into Azure Cosmos DB with ‘upsert’ configuration which will handle Delta load and insert/update the data accordingly. <br/>
 • Also, Gremlin Data Load script is scheduled using Windows Scheduler to run daily 15:00 PM EST, which will load the report data into Azure Cosmos DB for Gremlin API graph db. <br/>

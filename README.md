@@ -1,7 +1,5 @@
 # Retail Management System
 
-<h2>Overview</h2>
-
 • In this project, our objective is to build a data pipeline for multi-model databases for JSON data format as well as graph database using Microsoft Azure Cosmos DB SQL and Gremlin APIs. <br/>
 • We have the OList Brazilian e-commerce dataset from Kaggle for building and simulating our data pipeline. <br/>
 • The first step in our data pipeline is to extract data from the CSV files, perform data cleansing and load the data to SQL server using Talend Open Studio. <br/>

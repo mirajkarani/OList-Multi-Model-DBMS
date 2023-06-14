@@ -5,10 +5,10 @@ from airflow.providers.microsoft.azure.hooks.wasb import WasbHook
 client = WasbHook(wasb_conn_id="OListJSON")
 
 conn = pymssql.connect(
-        server="172.22.80.1",
+        server="***.**.**.*",
         database="olist",
         user="aniket",
-        password="root@1234",
+        password="*********",
         port="1433"
 )
 

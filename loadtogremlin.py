@@ -4,10 +4,10 @@ from gremlin_python.driver import client, serializer
 from gremlin_python.driver.aiohttp.transport import AiohttpTransport
 
 conn = pymssql.connect(
-        server="172.22.80.1",
+        server="***.**.**.*",
         database="olist",
         user="aniket",
-        password="root@1234",
+        password="*********",
         port="1433"
 )
 
